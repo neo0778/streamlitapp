@@ -28,7 +28,7 @@ st.title("Keyword Generator")
 st.write("Enter the details below to fetch keyword data. generate 100's of keyword with just a single keyword....")
 
 input_keyword = st.text_input("Enter the keyword", "")
-input_country = st.text_input("Enter the country code", "")
+input_country = st.text_input("Enter your country", "")
 API_KEY = "null"
 
 if st.button("Fetch Data"):
