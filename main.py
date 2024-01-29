@@ -4,6 +4,7 @@ import bomber
 import asyncio
 import pandas as pd
 
+st.set_page_config(page_title='Keyword Generator', page_icon=':smiley:')
 # Function to run asyncio code
 def run_asyncio_code(keyword, country, api_key):
     return asyncio.run(bomber.get_keyword_data(keyword, country, api_key))
